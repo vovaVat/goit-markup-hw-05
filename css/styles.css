@@ -662,3 +662,7 @@ svg{
 .check-box-contain{
     margin-bottom: 24px;
 }
+
+.form-container.comment{
+    margin-bottom: 16px;
+}
