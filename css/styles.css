@@ -578,11 +578,11 @@ svg{
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-button:hover .close-icon{
+.modal-button:hover+svg{
     fill: #ffffff
 }
 
-.modal-button:focus.close-icon{
+.modal-button:focus+svg{
     fill: #ffffff;
 }
 
