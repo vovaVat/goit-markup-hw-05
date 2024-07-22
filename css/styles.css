@@ -685,6 +685,7 @@ svg{
     align-items: center;
     justify-content: center;
     fill: transparent;
+    order: -1;
 }
 
 .form-email{
@@ -719,7 +720,7 @@ svg{
     fill: #F4F4FD;
 }
 
-.Privacy-link{
+.privacy-link{
     color: #4d5ae5;
 }
 
