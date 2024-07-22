@@ -716,7 +716,7 @@ svg{
     border: none;
 }
 
-.visually-hidden.checkbox:checked+label+span{
+.visually-hidden.checkbox:checked+.privacy-label .label-span{
     fill: #F4F4FD;
 }
 
