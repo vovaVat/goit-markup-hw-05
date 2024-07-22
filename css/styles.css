@@ -625,7 +625,7 @@ svg{
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.name-input:focus{
+.name-input:focus .name-input-svg{
     border-color: #4D5AE5;
 }
 
