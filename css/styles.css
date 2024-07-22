@@ -709,3 +709,16 @@ svg{
 .send-icon{
     margin-left: 16px;
 }
+
+.visually-hidden.checkbox:checked+label{
+    background-color: #404bbf;
+    border: none;
+}
+
+.visually-hidden.checkbox:checked+label+span{
+    fill: #F4F4FD;
+}
+
+.Privacy-link{
+    color: #4d5ae5;
+}
