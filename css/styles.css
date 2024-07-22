@@ -711,7 +711,7 @@ svg{
     margin-left: 16px;
 }
 
-.visually-hidden.checkbox:checked+label{
+.visually-hidden.checkbox:checked+.privacy-label{
     background-color: #404bbf;
     border: none;
 }
