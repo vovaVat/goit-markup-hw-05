@@ -521,6 +521,15 @@ svg{
     justify-content: center;
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 250ms ease-in-out;
+
+}
+
+.modal-overlay.is-open{
+    opacity: 1;
+    pointer-events: auto;
 }
 
 .modal{
@@ -672,7 +681,9 @@ svg{
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
-    color: #8e8f99;    
+    color: #8e8f99;
+    display: flex;
+    gap: 8px;    
 }
 
 .label-span{
@@ -725,6 +736,8 @@ svg{
 }
 
 .button-send{
+    margin-right: auto;
+    margin-left: auto;
     display: block;
     min-width: 169px;
     height: 56px;
