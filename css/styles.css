@@ -514,8 +514,6 @@ ol{
     opacity: 0;
     pointer-events: none;
     visibility: hidden;
-    transition: opacity 250ms ease-in-out;
-
 }
 
 .modal-overlay.is-open{
