@@ -53,6 +53,8 @@ a{
     padding: 188px 0;
     max-width: 1440px;
     background-position: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .order-button{
@@ -325,15 +327,6 @@ ol{
     margin-top: 8px;
 }
 
-svg{
-    max-width: 64px;
-    height: 64px;
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: 24px;
-    margin-bottom: 24px;
-}
-
 .overlay{
     position: absolute;
     top: 0;
@@ -551,9 +544,9 @@ svg{
     min-width: 165px;
     height: 40px;
     display: flex;
-    gap: 16px;
     justify-content: center;
     align-items:center;
+    margin-top: 0;
 }
 
 .modal-button{
@@ -749,4 +742,13 @@ svg{
     background-color: #4D5AE5;
     border: none;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+    border-radius: 4px;
+}
+
+.footer-par{
+    margin-right: 120px;
+}
+
+.social-media{
+    margin-right: auto;
 }
