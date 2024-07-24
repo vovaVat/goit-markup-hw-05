@@ -659,6 +659,7 @@ ol{
 
 .check-box-contain{
     margin-bottom: 24px;
+    display: flex;
 }
 
 .form-container.comment{
