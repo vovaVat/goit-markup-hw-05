@@ -394,8 +394,6 @@ ol{
 .social-media-svg{
     display: block;
     fill: #F4F4FD;
-    width: 16px;
-    height: 16px;
     margin: 0;
 }
 
@@ -705,6 +703,10 @@ ol{
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     color: #ffffff;
+}
+
+.email-inp::placeholder{
+    color: #FFFFFF;
 }
 
 .send-icon{
