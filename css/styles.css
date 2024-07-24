@@ -672,7 +672,6 @@ ol{
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: #8e8f99;
-    display: flex;
     gap: 8px;    
 }
 
@@ -686,6 +685,7 @@ ol{
     align-items: center;
     justify-content: center;
     fill: transparent;
+    order: -1;
 }
 
 .form-email{
